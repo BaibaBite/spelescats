@@ -13,7 +13,7 @@ function sutitZinu(){
 //async nozīmē, ka f-cijas vēderā var notikt nesinhronas lietas
 async function ieladetChataZinas()
 {
-    //await komanda liek pagaidīt kādu brīdi
+
     let datiNoServera = await fetch('catazinas.txt');
     let dati = await datiNoServera.text();
     console.log(dati);
