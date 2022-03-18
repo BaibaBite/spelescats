@@ -15,7 +15,7 @@ function sutitZinu(){
 async function ieladetChataZinas()
 {
 
-    let datiNoServera = await fetch('catazinas.txt');
+    let datiNoServera = await fetch(API + '/lasit');
     let dati = await datiNoServera.text();
     console.log(dati);
     zinas.innerHTML = dati;
