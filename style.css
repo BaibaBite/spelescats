@@ -1,3 +1,29 @@
 body{
     background-color: antiquewhite;
+    background-image: url("fons3.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.wrapper{
+    width:80%;
+    margin: auto;
+    background-color:#fff1e6;
+    border-radius: 30px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 7px gray;
+}
+.cataZinas{
+    background-color: ghostwhite;
+    height:300px;
+    border: solid 2px black;
+    margin: 20px auto;
+    padding: 20px; 
+    box-sizing: border-box;  
+    overflow: auto;/*pievieno ritjolsu tikai tad, kad vajag*/
+    /*overflow: scroll; - pievieno vertikālās un horizontālo ritjolsu*/
+    /*overflow-x: hidden; - paslēpj vertikālo ritjoslu*/
+    /*overflow-y: scroll; - pievieno vertikālo ritjolsu*/
 }
