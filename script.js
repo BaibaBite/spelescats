@@ -19,3 +19,6 @@ async function ieladetChataZinas()
     console.log(dati);
     zinas.innerHTML = dati;
 }
+
+//iebūvētā JS funkcija - intervals, ar kuras palīdzību panāk ka funcija darbojas noteiktu laiku/pēc noteikta laika
+setInterval(ieladetChataZinas, 1000)
