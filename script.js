@@ -1,4 +1,5 @@
 console.log(2)
+const API="https://chatsstartit.baibabite.repl.co"
 
 let zina = document.querySelector("#manaZina");
 let zinas = document.querySelector(".cataZinas");
